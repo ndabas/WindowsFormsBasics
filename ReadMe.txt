@@ -38,4 +38,11 @@ Just run the BuildAll.bat file to make the executables
 for all the samples. In case you have any trouble, contact
 me at: ndabas@hotmail.com .
 
+You might get some errors about resgen when building the samples - you
+should check to see if the resgen tool is in your PATH. If you have installed
+the .NET Framework SDK, this is not a problem.
+
+If you wish to use Visual Studio.NET instead of the command line, you should
+create a new project and add the source files I have mentioned above.
+
 Nikhil Dabas
