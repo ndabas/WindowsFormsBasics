@@ -192,6 +192,7 @@ namespace ND.Wizardry.SampleWizard
       this.Pages.Add(page4);
     }
     
+    [STAThread]
     public static void Main(String[] args)
     {
       SampleWizard wiz = new SampleWizard();
